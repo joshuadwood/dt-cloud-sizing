@@ -1,0 +1,10 @@
+# Dynatrace cloud sizing -- account list
+# provider   : aws | azure
+# account_id : AWS = 12 digits; Azure = subscription UUID (8-4-4-4-12 hex)
+# enabled    : false to skip a row without deleting it
+#
+# Copy this file (or use --accounts yourfile.csv) and fill in your own accounts.
+# accounts.local.csv is gitignored if you want to keep a real list next to the scripts.
+provider,account_id,name,enabled
+aws,111111111111,Example AWS account,true
+azure,00000000-0000-0000-0000-000000000000,Example Azure subscription,true

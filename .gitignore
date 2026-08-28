@@ -1,0 +1,25 @@
+# Credentials -- never commit these
+aws-creds.txt
+*creds*.txt
+.azure/
+
+# Real account list (contains actual org account IDs) -- see accounts.example.csv
+accounts.local.csv
+
+# Generated reports and scan output
+sizing*.json
+sizing*report*.txt
+sizing-report*.txt
+SIZING-REPORT*.md
+azure-*.json
+azure-*-report.txt
+portfolio.json
+csv/
+csv-*/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor / session
+.claude/
